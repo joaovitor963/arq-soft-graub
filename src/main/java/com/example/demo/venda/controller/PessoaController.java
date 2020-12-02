@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.venda.controller;
 import java.util.List;
 import java.util.Optional;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entity.Pessoa;
-import com.example.demo.repository.PessoaRepository;
+import com.example.demo.venda.entity.Pessoa;
+import com.example.demo.venda.repository.PessoaRepository;
 
 
 @RestController
